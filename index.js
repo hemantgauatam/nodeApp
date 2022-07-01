@@ -3,8 +3,8 @@ const express = require('express')
 const path=require('path')
 const fs=require('fs')
 const app=express()
-const port =3000
-const port1 =4000
+const port =5000
+
 app.get('/',(req,res)=>{
     res.send("<h1> this is my fs </h1>")
      
@@ -21,8 +21,5 @@ app.listen(port,()=>{
     console.log(`the port is running on http:/localhost${port}`)
 })
 
-app.listen(port1,()=>{
-     console.log('this is new port')
-})
 
 
