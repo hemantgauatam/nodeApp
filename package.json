@@ -1,0 +1,14 @@
+{
+  "name": "node-first-app",
+  "version": "1.0.0",
+  "description": "this is new app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hemant gautam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
